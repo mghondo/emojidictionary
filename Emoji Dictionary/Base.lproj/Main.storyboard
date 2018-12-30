@@ -39,5 +39,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="GA1-aZ-LYq">
+            <objects>
+                <viewController id="fcc-Dq-07T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fpf-GX-RCC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🦒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqc-dd-KcG">
+                                <rect key="frame" x="78.5" y="60" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="That is a giraffe." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5W-Ul-l6e">
+                                <rect key="frame" x="125.5" y="349" width="124" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mqc-dd-KcG" firstAttribute="centerX" secondItem="fpf-GX-RCC" secondAttribute="centerX" id="Cpy-Qt-3RW"/>
+                            <constraint firstItem="L5W-Ul-l6e" firstAttribute="centerX" secondItem="fpf-GX-RCC" secondAttribute="centerX" id="Od6-77-cXr"/>
+                            <constraint firstItem="Mqc-dd-KcG" firstAttribute="centerX" secondItem="fpf-GX-RCC" secondAttribute="centerX" id="s5d-cS-y33"/>
+                            <constraint firstItem="Mqc-dd-KcG" firstAttribute="top" secondItem="g7b-uz-fiG" secondAttribute="top" constant="40" id="sfu-yq-CDD"/>
+                            <constraint firstItem="L5W-Ul-l6e" firstAttribute="top" secondItem="Mqc-dd-KcG" secondAttribute="bottom" constant="50" id="zJp-vm-6AD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="g7b-uz-fiG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7QP-Ro-B0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="810.39999999999998" y="104.7976011994003"/>
+        </scene>
     </scenes>
 </document>
